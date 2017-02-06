@@ -1,23 +1,16 @@
-# winston-theme
+#Winston Responsive Theme
 
-Winston Responsive Theme
-
-
-Images sources:
-    Banner: 
-    
-        * big-data.jpg: https://picjumbo.imgix.net/DSC00083.jpg?q=40&w=1650&sharp=30 - Photo by picjumbo.com
-
-    Headshots
+##Images sources:
+   
+###Banner: 
+    * big-data.jpg: https://picjumbo.imgix.net/DSC00083.jpg?q=40&w=1650&sharp=30 - Photo by picjumbo.com
+###Headshots
+    * jane-doe.jpg: http://www.gratisography.com/pictures/361_1.jpg
+    * jackie-doe.jpg: http://www.gratisography.com/pictures/288_1.jpg
+    * john-doe.jpg: http://www.gratisography.com/pictures/220_1.jpg
  
-        * jane-doe.jpg: http://www.gratisography.com/pictures/361_1.jpg
-        * jackie-doe.jpg: http://www.gratisography.com/pictures/288_1.jpg
-        * john-doe.jpg: http://www.gratisography.com/pictures/220_1.jpg
- 
-
-License: All gratisography.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/ 	
-
-ElegantIcons License: GPL 2.0 and MIT http://www.gnu.org/licenses/gpl-2.0.html, http://opensource.org/licenses/MIT
+###License: 
+All gratisography.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/ 	
 
 * Bootstrap
 Resource URI: http://getbootstrap.com/
