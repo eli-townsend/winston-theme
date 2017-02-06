@@ -1,10 +1,9 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/*** Winston Responsive Theme JS ***/
 
-// jQuery to collapse the navbar on scroll
+
+/******************
+    Navigation
+******************/
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -16,7 +15,7 @@ function collapseNavbar() {
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -27,14 +26,17 @@ $(function() {
     });
 });
 
-// Closes the Responsive Menu on Menu Item Click
+
 $('.navbar-collapse ul li a').click(function() {
   if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
     $('.navbar-toggle:visible').click();
   }
 });
 
-// Google Maps Scripts
+
+/******************
+    Google Maps
+******************/
 var map = null;
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
