@@ -18,7 +18,36 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style type="text/css">
+       section {
+  height: 100vh;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+          padding: 0;
+          margin: 0;
+}
+section#team{
+  -webkit-flex: none;
+          flex: none;
+          flex-direction: column;
+}
+.inline-heading{
+    flex-direction:inline;
+    width: auto;
+}
+.content-section {
+    padding-top: 0;
+}
+@media(max-width:950px){
+    section{
+        height: auto;
+    }
+}
+    </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -83,10 +112,8 @@
     <section id="team" class="alternate-bg container-fluid text-center">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="section-heading" data-aos="fade-left" data-aos-once="true">Our Amazing Team</h2>
+                    <h2 class="inline-heading" data-aos="fade-left" data-aos-once="true">Our Amazing Team</h2>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member" data-aos="fade-left" data-aos-once="true">
                         <img src="img/john-doe.jpg" class="img-responsive img-circle" alt="">
@@ -178,7 +205,7 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
     <script src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJikCrqWkkshLMXEpKtLf1SyhqyWDtnuw&content_copy
 &sensor=false"></script>
